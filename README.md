@@ -17,7 +17,7 @@ This project is a Java Spring Boot application that manages student records, pro
 - **Spring Security**
 - **JWT (JSON Web Token)**
 - **Spring Data JPA**
-- **MySQL (or other relational databases)**
+- **MySQL**
 
 ## Prerequisites
 
