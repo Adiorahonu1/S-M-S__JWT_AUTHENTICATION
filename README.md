@@ -1,16 +1,25 @@
-# Student Management System with JWT Security
+# Student Management System with Secure JWT Authentication
 
-This project is a Java Spring Boot application that manages student records, providing secure, role-based access to data through a RESTful API. It uses JSON Web Tokens (JWT) for user authentication, ensuring that only authorized users can access protected endpoints.
+![Java](https://img.shields.io/badge/Java-21-blue.svg)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+![Database](https://img.shields.io/badge/Database-MySQL-blue.svg)
 
-## Features
+---
 
-- **JWT-based Authentication**: Secure endpoints with JWT, preventing unauthorized access.
-- **Role-Based Access Control**: Allows different levels of access depending on user roles (e.g., Admin, User).
-- **RESTful API**: Provides endpoints for creating, reading, updating, and deleting student records.
-- **Error Handling**: Custom error responses to improve user feedback.
-- **Database Support**: Connects to a relational database for data storage and retrieval.
+This project is a **Java Spring Boot** application designed to manage student records with a strong focus on **security** and **role-based access control**. It uses **JSON Web Tokens (JWT)** to authenticate users and secure sensitive API endpoints, ensuring that only authorized users have access based on their roles.
 
-## Technologies Used
+The complete source code for the system, including authentication, authorization, CRUD operations, and database integration, is available [here](https://github.com/Adiorahonu1/S-M-S__JWT_AUTHENTICATION).
+
+## ✨ Key Features
+
+- **Secure JWT Authentication**: Authenticate users with signed tokens to protect API endpoints from unauthorized access.
+- **Role-Based Authorization**: Differentiate user permissions (e.g., Admin vs. User) to control access levels within the system.
+- **Full CRUD Operations**: Create, read, update, and delete student records through a clean and scalable RESTful API.
+- **Robust Error Handling**: Deliver clear, consistent error responses for better user experience and debugging.
+- **Relational Database Integration**: Persist student data with seamless connection to a **MySQL** database.
+
+## 🚀 Technologies and Tools
 
 - **Java 21**
 - **Spring Boot 3**
@@ -19,16 +28,16 @@ This project is a Java Spring Boot application that manages student records, pro
 - **Spring Data JPA**
 - **MySQL**
 
-## Prerequisites
+## ⚙️ Prerequisites
 
-- **Java 21**
-- **Maven** (for dependency management)
-- **MySQL** (or any other preferred relational database)
+- **Java 21** installed
+- **Maven** for project build and dependency management
+- **MySQL** database server (or compatible relational database)
 
-## Getting Started
+## 🛠️ Getting Started
 
-### Clone the Repository
+Clone the repository and navigate into the project directory:
 
 ```bash
-git clone https://github.com/yourusername/student-management-system.git
-cd student-management-system
+git clone https://github.com/Adiorahonu1/S-M-S__JWT_AUTHENTICATION.git
+cd S-M-S__JWT_AUTHENTICATION
